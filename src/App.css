@@ -1,0 +1,28 @@
+.menu-icon{
+    position: relative;
+    z-index: 99;
+}
+.nav-menu{
+    position: absolute;
+    top: -100%;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 3.5rem 5rem;
+    padding-top: 5rem;
+    background: #fff;
+    color: black;
+    border-bottom-left-radius: 10px;
+    gap: 3rem;
+    z-index: 98;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    transition: .3s;
+}
+.nav-menu.active{
+    top: 0;
+    right: 0;
+}
+.store-links{
+    margin-left: -10px;
+}
